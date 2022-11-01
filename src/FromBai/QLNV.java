@@ -52,14 +52,14 @@ public class QLNV extends javax.swing.JFrame {
         }
     }
 
-    public void Reset() {
-        txtHoTen.setText("");
-        txtEmail.setText("");
-        txtLuong.setText("");
-        txtMaNv.setText("");
-        txtTuoi.setText("");
-       // index = -1;
-    }
+//    public void Reset() {
+//        txtHoTen.setText("");
+//        txtEmail.setText("");
+//        txtLuong.setText("");
+//        txtMaNv.setText("");
+//        txtTuoi.setText("");
+//       // index = -1;
+//    }
 
     public NhanVien readForm() {
         return new NhanVien(txtMaNv.getText(), txtHoTen.getText(), Integer.valueOf(txtTuoi.getText()), txtEmail.getText(), Double.parseDouble(txtLuong.getText()));
